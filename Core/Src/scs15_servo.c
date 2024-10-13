@@ -289,7 +289,7 @@ void SCS15SetSpeed(uint8_t scs15_id, int16_t scs15_speed)
 	}
 	else if (scs15_speed > 1024)
 	{
-		scs15_speed = -1024;
+		scs15_speed = 1024;
 	}
 	else
 	{
